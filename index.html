@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BeatMix</title>
+  <link rel="icon" type="image/png" href="log.png"/>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+  </link>
+</head>
+
+<body>
+
+  <audio src="" id="audio-src"></audio>
+
+  <section class="home-page">
+    <div class="carousel">
+      <img  src="assets/car/cars1.jpeg" alt="" class="active" />
+      <img  src="assets/car/cars2.jpeg" alt="" />
+      <img  src="assets/car/cars3.jpeg" alt="" />
+      <img  src="assets/car/cars4.jpeg" alt="" />
+    </div>
+
+    <h1 class="heading">Play again</h1>
+    <div class="playlists-cards">
+
+      <div class="playlists-card">
+        <img class="playlists-card-img" src="assets/singerimg/sing5.jpeg" alt="">
+        <p class="card-name">Mr.hip-hop.....</p>
+      </div>
+
+      <div class="playlists-card">
+        <img class="playlists-card-img" src="assets/singerimg/sing1.jpeg" alt="">
+        <p class="card-name">Sonu-nigam...</p>
+      </div>
+
+      <div class="playlists-card">
+        <img class="playlists-card-img" src="assets/singerimg/sing2.jpeg" alt="">
+        <p class="card-name">Arijit Singh...</p>
+      </div>
+
+      <div class="playlists-card">
+        <img class="playlists-card-img" src="assets/singerimg/sing4.jpeg" alt="">
+        <p class="card-name">Rita Ora.....</p>
+      </div>
+
+      <div class="playlists-card">
+        <img class="playlists-card-img" src="assets/singerimg/sing3.jpeg" alt="">
+        <p class="card-name">Justin Timberlake</p>
+      </div>
+    </div>
+
+    <!-- Section 2 -->
+
+    <h1 class="heading">Your Favorite </h1>
+    <div class="playlists-cards">
+
+      <div class="playlists-card">
+        <img class="playlists-card-img" src="assets/singerimg/sing4.jpeg" alt="">
+        <p class="card-name">Rita Ora.....</p>
+      </div>
+
+      <div class="playlists-card">
+        <img class="playlists-card-img" src="assets/singerimg/sing3.jpeg" alt="">
+        <p class="card-name">Justin Timberlake</p>
+      </div>
+
+      <div class="playlists-card">
+        <img class="playlists-card-img" src="assets/singerimg/sing5.jpeg" alt="">
+        <p class="card-name">Spencer-Lee...</p>
+      </div>
+
+      <div class="playlists-card">
+        <img class="playlists-card-img" src="assets/singerimg/sing1.jpeg" alt="">
+        <p class="card-name">Sonu-nigam...</p>
+      </div>
+
+      <div class="playlists-card">
+        <img class="playlists-card-img" src="assets/singerimg/sing2.jpeg" alt="">
+        <p class="card-name">Arijit Singh...</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- End-Of page -->
+
+  <section class="music-player ">
+    <img class="icon back-btn hide" src="assets/img/back.png" alt="">
+    <img class="icon menu-btn hide" src="assets/img/menu.png" alt="">
+
+    <h1 class="current-Sname">Mirror</h1>
+    <p class="artist hide">Justin Timberlake</p>
+    <img class="cover hide" src="assets/singerimg/sing3.jpeg" alt="">
+    <div class="seek-bar">
+      <input type="range" class="music-bar" value="0">
+    </div>
+
+    <div class="control">
+      <span class="fas fa-redo"></span>
+      <div class="main">
+        <i class="fas fa-backward active"></i>
+        <i class="fas fa-play active"></i>
+        <i class="fas fa-pause"></i>
+        <i class="fas fa-forward active"></i>
+      </div>
+      <input class="vloum-slide" type="range" max="1" value="1" step="0.1">
+      <span class="fas fa-volume-up fa-lg"></span>
+    </div>
+  </section>
+
+
+  <!--playlists--->
+
+  <section class="playlists">
+    <img class="icon back-btn hide" src="assets/img/back.png" alt="">
+    <h2 class="title">playlists</h2>
+
+    <div class="queue active">
+      <div class="cover-queue">
+        <img src="assets/singerimg/sing3.jpeg" alt="">
+        <i class="fas fa-pause"></i>
+      </div>
+      <p class="name">Justin Timberlake</p>
+    </div>
+
+    <div class="queue">
+      <div class="cover-queue">
+        <img src="assets/singerimg/sing1.jpeg" alt="">
+        <i class="fas fa-pause"></i>
+      </div>
+      <p class="name">Sonu Nigam</p>
+    </div>
+
+    <div class="queue">
+      <div class="cover-queue">
+        <img src="assets/singerimg/sing2.jpeg" alt="">
+        <i class="fas fa-pause"></i>
+      </div>
+      <p class="name">Arjit Singh</p>
+    </div>
+
+    <div class="queue">
+      <div class="cover-queue">
+        <img src="assets/singerimg/sing4.jpeg" alt="">
+        <i class="fas fa-pause"></i>
+      </div>
+      <p class="name">Rita Ora</p>
+    </div>
+
+    <div class="queue">
+      <div class="cover-queue">
+        <img src="assets/singerimg/sing5.jpeg" alt="">
+        <i class="fas fa-pause"></i>
+      </div>
+      <p class="name">Mr.hip-hop</p>
+    </div>
+
+  </section>
+
+
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
